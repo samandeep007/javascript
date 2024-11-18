@@ -38,3 +38,4 @@ const sayHello = () => {
 console.log(sayHello());
 console.log(typeof bigNumber);
 console.log(typeof heroes);
+console.log(typeof sayHello)

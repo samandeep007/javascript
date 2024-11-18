@@ -1,7 +1,7 @@
 // Stack, Heap
 
 //Stack --> Primitive --> you will get a copy
-//Heap --> Non-primitive types --> get a original values
+//Heap --> Non-primitive types --> get a original values --> You get the reference
 
 let myYoutubeName = "Samandeep Singh";
 
@@ -24,4 +24,5 @@ let userTwo = user; // userTwo points to the same memory location as the user
 
 userTwo.name = "Tarandeep Kaur";
 
-console.log(user);
+console.log(user); // The value of name changes in the user object 
+console.log(userTwo);
